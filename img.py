@@ -23,7 +23,7 @@ while True:
     res_red = cv2.bitwise_and(frame, frame, mask=mask_red)
     res_blue = cv2.bitwise_and(frame, frame, mask=mask_blue)
 
-    # grayscale for countour
+    # grayscale for contour
     gray_red = cv2.cvtColor(res_red, cv2.COLOR_BGR2GRAY)
     gray_blue = cv2.cvtColor(res_blue, cv2.COLOR_BGR2GRAY)
 
